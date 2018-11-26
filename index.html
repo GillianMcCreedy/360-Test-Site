@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>360&deg; Media Test Site</title>
+      <link href="index.css" type="text/css" rel="stylesheet" />
+      <!-- <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>-->
+      <script src="aframe.js"></script>
+  </head>
+
+  <body>
+    <div id="outer">
+      <h1>360&deg; Media Test Site</h1>
+      <!-- <a href="https://unsplash.com/photos/5-MNAjL81Iw"><img id="picnic_pie" src="Pics/picnic.jpg" alt="Picnic pie"/></a> -->
+
+      <!-- This is where we add a placeholder for the 360 media -->
+      <!-- <div id='vrview'><iframe allowfullscreen="true" scrolling="no" width="100%" height="300" src="Pics/lib360.jpg" style="border: 0px;"></iframe></div> -->
+
+      <a-scene>
+        <a-sky src="Pics\lib360.jpg" rotation="0 -130 0"></a-sky>
+      </a-scene>
+
+      <iframe src="https://cdnapisec.kaltura.com/p/266312/sp/26631200/embedIframeJs/uiconf_id/29731991/partner_id/266312?iframeembed=true&playerId=kaltura_player&entry_id=1_wzdisyv2&flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
+
+      <BR>
+      <div id="inner">
+        <h2>A Website for embedding 360&deg; media</h2>
+        <p>
+          This used to be a website about pie, believe it or not. Insert pie pun here -->
+        </p>
+        <p><a class="lighten" href="https://developers.google.com/vr/develop/">Click here for more VR dev info from Google</a></p>
+
+        <h3> Using Google's VR View JavaScript API</h3>
+        <p>Here goes nothin </p>
+        <BR>
+
+        <div id="footer">
+          <pre>
+  Copyright © 2018 TheGDurst
+     A GDurst Production
+    All rights reserved
+Background image by <a class="lighten" href="https://unsplash.com/photos/4Zaq5xY5M_c">Joe Woods</a>
+          </pre>
+
+        </div> <!-- closes footer div -->
+      </div> <!-- closes inner div -->
+    </div> <!-- closes outer div -->
+  </body>
+</html>
